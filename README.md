@@ -19,7 +19,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin-top: 270px;
+      margin-top: 220px;
     }
     .model-section {
       text-align: center;
