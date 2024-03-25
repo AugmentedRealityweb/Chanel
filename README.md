@@ -1,7 +1,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Modele AR Optimizate</title>
   <style>
     body {
       margin: 0;
@@ -20,7 +19,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin-top: 100px;
+      margin-top: 200px;
     }
     .model-section {
       text-align: center;
@@ -69,7 +68,6 @@
   <script type="module" src="https://unpkg.com/@google/model-viewer"></script>
 </head>
 <body>
-
 <div class="model-container">
   <!-- Model -->
   <div class="model-section">
@@ -88,9 +86,7 @@
       max-camera-orbit="auto 80deg auto">
       <button slot="ar-button" class="ar-button">Activează modul AR</button>
     </model-viewer>
-    <p>Bag</p>
   </div>
-  <!-- Buton de navigare înapoi la pagina produs -->
   <a href="https://www.titi-valenti.ro/setul-duo-chic-black.html" class="back-link">Înapoi la pagină produs</a>
 </div>
 </body>
