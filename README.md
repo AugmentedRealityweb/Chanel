@@ -27,7 +27,7 @@
     }
     model-viewer {
       width: 200px;
-      height: 260px;
+      height: 230px;
       margin: 0 auto;
       border-radius: 80px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
