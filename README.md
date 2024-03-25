@@ -19,7 +19,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin-top: 200px;
+      margin-top: 270px;
     }
     .model-section {
       text-align: center;
@@ -48,7 +48,7 @@
     }
     .back-link {
       display: block;
-      margin-top: 50px; /* Distanța de la model */
+      margin-top: 0px; /* Distanța de la model */
       text-decoration: none;
       color: white;
       background-color: #007BFF;
