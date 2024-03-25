@@ -23,18 +23,18 @@
     }
     .model-section, .iframe-section {
       text-align: center;
-      margin-bottom: 20px;
+      margin-bottom: 50px; /* Spațiere între model și butonul de navigare */
     }
-    model-viewer, iframe {
-      width: 300px; /* Adjusted for consistency */
-      height: 400px; /* Adjusted for consistency */
+    model-viewer, .iframe-section iframe {
+      width: 200px;
+      height: 230px;
       margin: 0 auto;
       border-radius: 20px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
     .ar-button {
-      padding: 10px 15px;
-      font-size: 0.9rem;
+      padding: 5px 10px;
+      font-size: 0.8rem;
       margin-top: 10px;
       background-color: #007BFF;
       border: none;
@@ -48,7 +48,7 @@
     }
     .back-link {
       display: block;
-      margin-top: 20px;
+      margin-top: 0px; /* Distanța de la model */
       text-decoration: none;
       color: white;
       background-color: #007BFF;
@@ -60,11 +60,16 @@
     .back-link:hover {
       background-color: #0056b3;
     }
+    p {
+      color: #FFFFFF;
+      font-size: 1.2em;
+    }
   </style>
   <script type="module" src="https://unpkg.com/@google/model-viewer"></script>
 </head>
 <body>
 <div class="model-container">
+  <!-- Model Viewer -->
   <div class="model-section">
     <model-viewer
       src="bag.glb"
@@ -82,10 +87,9 @@
       <button slot="ar-button" class="ar-button">Activează modul AR</button>
     </model-viewer>
   </div>
+  <!-- Iframe Model Viewer -->
   <div class="iframe-section">
-    <iframe width="100%" height="100%" frameborder="0" allowfullscreen src="https://scaniverse.com/scan/k6oq3xbrrsll4ahe?embed=1"></iframe>
-    <!-- Assuming the platform supports direct AR activation, this button might help -->
-    <button onclick="window.open('https://scaniverse.com/scan/k6oq3xbrrsll4ahe', '_blank');" class="ar-button">Vezi în modul AR</button>
+    <iframe width="200" height="230" frameborder="0" allowfullscreen allowtransparency="true" style="border-radius: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); background: transparent;" src="https://scaniverse.com/scan/k6oq3xbrrsll4ahe?embed=1"></iframe>
   </div>
   <a href="https://www.titi-valenti.ro/setul-duo-chic-black.html" class="back-link">Înapoi la pagină produs</a>
 </div>
