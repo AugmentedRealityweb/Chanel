@@ -21,20 +21,20 @@
       justify-content: center;
       margin-top: 220px;
     }
-    .model-section, .iframe-section {
+    .model-section {
       text-align: center;
       margin-bottom: 50px; /* Spațiere între model și butonul de navigare */
     }
-    model-viewer, .iframe-section iframe {
+    model-viewer {
       width: 200px;
       height: 230px;
       margin: 0 auto;
-      border-radius: 20px;
+      border-radius: 80px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
     .ar-button {
-      padding: 5px 10px;
-      font-size: 0.8rem;
+      padding: 5px 10px; /* Ajustat pentru a face butonul mai mic */
+      font-size: 0.8rem; /* Ajustat pentru a face textul mai mic */
       margin-top: 10px;
       background-color: #007BFF;
       border: none;
@@ -69,7 +69,7 @@
 </head>
 <body>
 <div class="model-container">
-  <!-- Model Viewer -->
+  <!-- Model -->
   <div class="model-section">
     <model-viewer
       src="bag.glb"
@@ -86,10 +86,6 @@
       max-camera-orbit="auto 80deg auto">
       <button slot="ar-button" class="ar-button">Activează modul AR</button>
     </model-viewer>
-  </div>
-  <!-- Iframe Model Viewer -->
-  <div class="iframe-section">
-    <iframe width="200" height="230" frameborder="0" allowfullscreen allowtransparency="true" style="border-radius: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); background: transparent;" src="https://scaniverse.com/scan/k6oq3xbrrsll4ahe?embed=1"></iframe>
   </div>
   <a href="https://www.titi-valenti.ro/setul-duo-chic-black.html" class="back-link">Înapoi la pagină produs</a>
 </div>
