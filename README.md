@@ -20,6 +20,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      margin-top: 50px;
     }
     .model-section {
       text-align: center;
@@ -93,4 +94,3 @@
   <a href="https://www.titi-valenti.ro/setul-duo-chic-black.html" class="back-link">Înapoi la pagină produs</a>
 </div>
 </body>
-</html>
