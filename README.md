@@ -33,8 +33,8 @@
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
     .ar-button {
-      padding: 5px 10px; /* Ajustat pentru a face butonul mai mic */
-      font-size: 0.8rem; /* Ajustat pentru a face textul mai mic */
+      padding: 5px 10px;
+      font-size: 0.8rem;
       margin-top: 10px;
       background-color: #007BFF;
       border: none;
@@ -46,9 +46,14 @@
     .ar-button:hover {
       background-color: #0056b3;
     }
+    .iframe-section {
+      width: 300px;
+      height: 400px;
+      margin-top: 20px; /* Adjust based on your layout needs */
+    }
     .back-link {
       display: block;
-      margin-top: 0px; /* Distanța de la model */
+      margin-top: 20px; /* Distanța de la model sau iframe */
       text-decoration: none;
       color: white;
       background-color: #007BFF;
@@ -87,8 +92,10 @@
       <button slot="ar-button" class="ar-button">Activează modul AR</button>
     </model-viewer>
   </div>
+  <!-- Sectiune pentru iframe -->
+  <div class="iframe-section">
+    <iframe width="100%" height="100%" frameborder="0" allowfullscreen src="https://scaniverse.com/scan/k6oq3xbrrsll4ahe?embed=1"></iframe>
+  </div>
   <a href="https://www.titi-valenti.ro/setul-duo-chic-black.html" class="back-link">Înapoi la pagină produs</a>
-  <iframe width="100%" height="100%" frameborder="0" allowfullscreen src="https://scaniverse.com/scan/k6oq3xbrrsll4ahe?embed=1"></iframe>
-
 </div>
 </body>
