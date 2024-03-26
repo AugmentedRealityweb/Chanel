@@ -8,12 +8,21 @@
       font-family: Arial, sans-serif;
       background-image: url('fundal8.jpg');
       background-size: cover;
-      background-position: center;
+      background-position: center; /* Ajustează acest lucru pentru a schimba ce parte a imaginii este mai focalizată */
       display: flex;
       justify-content: center;
       align-items: center;
       height: 90vh;
     }
+
+    /* Ajustări pentru ecrane mai mari */
+    @media (min-width: 1024px) {
+      body {
+        background-size: cover; /* Poți să schimbi în 'contain' dacă vrei ca întreaga imagine să fie vizibilă */
+        background-position: center; /* Ajustează această valoare după preferințe */
+      }
+    }
+
     .model-container {
       display: flex;
       flex-direction: column;
@@ -33,8 +42,8 @@
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
     .ar-button {
-      padding: 5px 10px; /* Ajustat pentru a face butonul mai mic */
-      font-size: 0.8rem; /* Ajustat pentru a face textul mai mic */
+      padding: 5px 10px;
+      font-size: 0.8rem;
       margin-top: 10px;
       background-color: #007BFF;
       border: none;
