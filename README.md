@@ -8,21 +8,12 @@
       font-family: Arial, sans-serif;
       background-image: url('fundal8.jpg');
       background-size: cover;
-      background-position: center; /* Ajustează acest lucru pentru a schimba ce parte a imaginii este mai focalizată */
+      background-position: center;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 90vh;
     }
-
-    /* Ajustări pentru ecrane mai mari */
-    @media (min-width: 1024px) {
-      body {
-        background-size: cover; /* Poți să schimbi în 'contain' dacă vrei ca întreaga imagine să fie vizibilă */
-        background-position: center; /* Ajustează această valoare după preferințe */
-      }
-    }
-
     .model-container {
       display: flex;
       flex-direction: column;
@@ -35,17 +26,17 @@
       margin-bottom: 50px; /* Spațiere între model și butonul de navigare */
     }
     model-viewer {
-      width: 200px;
-      height: 230px;
+      width: 150px;
+      height: 180px;
       margin: 0 auto;
       border-radius: 80px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
     .ar-button {
-      padding: 5px 10px;
-      font-size: 0.8rem;
-      margin-top: 20px;
-      background-color: #007BFF;
+      padding: 5px 10px; /* Ajustat pentru a face butonul mai mic */
+      font-size: 0.8rem; /* Ajustat pentru a face textul mai mic */
+      margin-top: 25px;
+      background-color: #00c8ff;
       border: none;
       border-radius: 20px;
       color: white;
@@ -60,7 +51,7 @@
       margin-top: 0px; /* Distanța de la model */
       text-decoration: none;
       color: white;
-      background-color: #007BFF;
+      background-color: #0056b3;
       padding: 10px 15px;
       border-radius: 20px;
       font-size: 0.9rem;
