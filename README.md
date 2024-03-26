@@ -26,7 +26,7 @@
       margin-bottom: 50px; /* Spațiere între model și butonul de navigare */
     }
     model-viewer {
-      width: 150px;
+      width: 200px;
       height: 180px;
       margin: 0 auto;
       border-radius: 80px;
