@@ -44,7 +44,7 @@
     .ar-button {
       padding: 5px 10px;
       font-size: 0.8rem;
-      margin-top: 10px;
+      margin-top: 20px;
       background-color: #007BFF;
       border: none;
       border-radius: 20px;
