@@ -27,7 +27,7 @@
     }
     model-viewer {
       width: 200px;
-      height: 180px;
+      height: 300px;
       margin: 0 auto;
       border-radius: 80px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
@@ -35,7 +35,7 @@
     .ar-button {
       padding: 5px 10px; /* Ajustat pentru a face butonul mai mic */
       font-size: 0.8rem; /* Ajustat pentru a face textul mai mic */
-      margin-top: 60px;
+      margin-top: 140px;
       background-color: #00c8ff;
       border: none;
       border-radius: 20px;
