@@ -6,7 +6,7 @@
       margin: 0;
       padding: 0;
       font-family: Arial, sans-serif;
-      background-image: url('fundal.mp4');
+      background-image: url('fundal8.jpg');
       background-size: cover;
       background-position: center;
       display: flex;
