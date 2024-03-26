@@ -88,7 +88,5 @@
     </model-viewer>
   </div>
   <a href="https://www.titi-valenti.ro/setul-duo-chic-black.html" class="back-link">Înapoi la pagină produs</a>
-  <iframe src="https://augmentedrealityweb.github.io/Chanel/index.html" width="200" height="230"></iframe>
-
 </div>
 </body>
