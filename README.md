@@ -35,7 +35,7 @@
     .ar-button {
       padding: 5px 10px; /* Ajustat pentru a face butonul mai mic */
       font-size: 0.8rem; /* Ajustat pentru a face textul mai mic */
-      margin-top: 260px;
+      margin-top: 250px;
       background-color: #00c8ff;
       border: none;
       border-radius: 20px;
